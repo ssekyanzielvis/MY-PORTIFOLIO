@@ -3,134 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <!-- Slick Carousel CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-    <!-- Custom CSS -->
+    <title>Ssekyanzi Abdulsalam | Software Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav>
+                <div class="logo">Ssekyanzi</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
     </header>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Hi, I'm [Your Name]</h1>
-            <p>A [Your Profession] based in [Your Location]</p>
-            <a href="#portfolio" class="btn">View My Work</a>
-        </div>
-    </section>
-
-    <section id="about" class="about-section">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
-                    <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.</p>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>I'm <span class="highlight">Ssekyanzi Abdulsalam</span></h1>
+                    <h2 class="typing-text">Software Developer | Flutter Expert | AI Enthusiast</h2>
+                    <p class="intro">Ugandan Computer Science student at Makerere University passionate about technology and innovation, combining technical expertise with ethical responsibility.</p>
+                    
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn primary">Hire Me</a>
+                        <a href="#portfolio" class="btn secondary">View My Work</a>
+                    </div>
                 </div>
-                <div class="about-image">
-                    <img src="https://via.placeholder.com/400" alt="Profile Image">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio" class="portfolio-section">
-        <div class="container">
-            <h2>My Portfolio</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>Short description of project 1</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200" alt="Project 2">
-                    <h3>Project 2</h3>
-                    <p>Short description of project 2</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200" alt="Project 3">
-                    <h3>Project 3</h3>
-                    <p>Short description of project 3</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200" alt="Project 4">
-                    <h3>Project 4</h3>
-                    <p>Short description of project 4</p>
+                <div class="hero-image">
+                    <img src="your-image.jpg" alt="Ssekyanzi Abdulsalam">
+                    <div class="tech-icons">
+                        <i class="fab fa-python" title="Python"></i>
+                        <i class="fab fa-js" title="JavaScript"></i>
+                        <i class="fab fa-react" title="React"></i>
+                        <i class="fas fa-mobile-alt" title="Flutter"></i>
+                        <i class="fas fa-brain" title="Machine Learning"></i>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="testimonials" class="testimonials-section">
-        <div class="container">
-            <h2>Testimonials</h2>
-            <div class="testimonials-slider">
-                <div class="testimonial">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula."</p>
-                    <h4>- Client 1</h4>
+        <section id="quick-facts" class="quick-facts">
+            <div class="container">
+                <div class="fact-card">
+                    <i class="fas fa-university"></i>
+                    <h3>Makerere University</h3>
+                    <p>BSc. Computer Science</p>
                 </div>
-                <div class="testimonial">
-                    <p>"Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor."</p>
-                    <h4>- Client 2</h4>
+                <div class="fact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Kampala, Uganda</h3>
+                    <p>Based in Makerere Kikoni</p>
                 </div>
-                <div class="testimonial">
-                    <p>"Suspendisse in orci enim. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor."</p>
-                    <h4>- Client 3</h4>
+                <div class="fact-card">
+                    <i class="fas fa-code"></i>
+                    <h3>2+ Years</h3>
+                    <p>Development Experience</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2>Get In Touch</h2>
-            <form id="contact-form">
-                <div class="form-group">
-                    <input type="text" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                    <textarea placeholder="Your Message" required></textarea>
-                </div>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-        </div>
-    </section>
+        <!-- Additional sections from your original index.html would go here -->
+        <section id="portfolio" class="portfolio-section">
+            <!-- Portfolio content -->
+        </section>
+
+        <section id="about" class="about-section">
+            <!-- About content -->
+        </section>
+
+        <!-- Other sections... -->
+    </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2023 My Portfolio. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i>
+                        <span>+256 706 253680</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <span>abdulssekyanzi@gmail.com</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Makerere Kikoni, Kampala, Uganda</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#home"><i class="fas fa-chevron-right"></i> Home</a>
+                    <a href="#portfolio"><i class="fas fa-chevron-right"></i> Portfolio</a>
+                    <a href="#about"><i class="fas fa-chevron-right"></i> About</a>
+                    <a href="#services"><i class="fas fa-chevron-right"></i> Services</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Technical Skills</h3>
+                    <a href="#"><i class="fas fa-mobile-alt"></i> Flutter Development</a>
+                    <a href="#"><i class="fab fa-react"></i> React Development</a>
+                    <a href="#"><i class="fab fa-python"></i> Python Programming</a>
+                    <a href="#"><i class="fas fa-brain"></i> Machine Learning</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Ssekyanzi Abdulsalam. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Font Awesome for icons -->
-    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Slick Carousel JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <!-- Custom JS -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
     <script src="script.js"></script>
 </body>
 </html>
